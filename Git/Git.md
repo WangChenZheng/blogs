@@ -347,3 +347,52 @@ git remote add origin https://gitee.com/wang-chen-zheng/gittest.git
 ![image-20230218140156771](https://image-bed-693a.obs.cn-north-4.myhuaweicloud.com/imgbed/image-20230218140156771.png)
 
 ##### 6.1.3 将本地库推送至远程仓库
+
+`git push 别名 分支`
+
+```shell
+git push origin master
+```
+
+##### 6.1.4 克隆远程仓库到本地
+
+`git clone 远程地址`
+
+![image-20230218180131880](https://image-bed-693a.obs.cn-north-4.myhuaweicloud.com/imgbed/image-20230218180131880.png)
+
+![image-20230218180145853](https://image-bed-693a.obs.cn-north-4.myhuaweicloud.com/imgbed/image-20230218180145853.png)
+
+![image-20230218180216832](https://image-bed-693a.obs.cn-north-4.myhuaweicloud.com/imgbed/image-20230218180216832.png)
+
+##### 6.1.5 拉取远程仓库neirong
+
+`git pull 远程地址别名 远程分支名`
+
+```shell
+# 修改本地仓库内容并上传至远程仓库
+# 在hello.txt后添加一行pull test
+git add .
+git commit -m "pull test"
+git push origin master
+```
+
+![image-20230218180406222](https://image-bed-693a.obs.cn-north-4.myhuaweicloud.com/imgbed/image-20230218180406222.png)
+
+![image-20230218180553172](https://image-bed-693a.obs.cn-north-4.myhuaweicloud.com/imgbed/image-20230218180553172.png)
+
+```shell
+# 切换至刚才clone的文件夹
+# 查看hello.txt内容
+cat hello.txt
+```
+
+![image-20230218180725246](https://image-bed-693a.obs.cn-north-4.myhuaweicloud.com/imgbed/image-20230218180725246.png)
+
+```shell
+# 拉取远程仓库内容
+git pull origin master
+# 再次查看hello.txt内容，发现已经更新了
+cat hello.txt
+```
+
+![image-20230218180831428](https://image-bed-693a.obs.cn-north-4.myhuaweicloud.com/imgbed/image-20230218180831428.png)
