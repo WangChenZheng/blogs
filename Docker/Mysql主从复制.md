@@ -1,4 +1,4 @@
-## Docker高级
+## Docker高级篇-MySQL主从复制
 
 ### MySQL主从复制
 
@@ -193,3 +193,4 @@ SHOW SLAVE STATUS \G;
 #### 7. 测试主从复制
 
 ![image-20230217215812735](https://image-bed-693a.obs.cn-north-4.myhuaweicloud.com/imgbed/image-20230217215812735.png)
+
