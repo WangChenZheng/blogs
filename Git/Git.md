@@ -364,7 +364,7 @@ git push origin master
 
 ![image-20230218180216832](https://image-bed-693a.obs.cn-north-4.myhuaweicloud.com/imgbed/image-20230218180216832.png)
 
-##### 6.1.5 拉取远程仓库neirong
+##### 6.1.5 拉取远程仓库内容
 
 `git pull 远程地址别名 远程分支名`
 
